@@ -1,0 +1,30 @@
+package hw.ch3;
+
+interface  IPrintfHelper<T>{
+	
+	public void Print(T t);
+	 
+}
+//第一種實現方法
+ class PrintfHelper<T> implements IPrintfHelper<T>{
+
+	@Override
+	public void Print(T t) {
+		// TODO Auto-generated method stub
+		System.out.println(t);
+	}
+	
+}
+
+public class InitRunConfig {
+	public static void main(String[] args) {
+		for(String item : args) {
+			System.out.println(item);
+		}
+		
+		IPrintfHelper<String> prStr = new PrintfHelper<String>();
+		prStr.Print("泛型接口打印");
+ 		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hw.ch3&apos; to &apos;hw.ch3.fx&apos;&#x0D;&#x0A;- Original project: &apos;Hw1&apos;&#x0D;&#x0A;- Original element: &apos;Hw1/src/hw.ch3&apos;&#x0D;&#x0A;- Renamed element: &apos;Hw1/src/hw.ch3.fx&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hw.ch3&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;hw.ch3" name="hw.ch3.fx" qualified="false" references="true" stamp="1582441974264" textual="false" version="1.0"/>
+</session>

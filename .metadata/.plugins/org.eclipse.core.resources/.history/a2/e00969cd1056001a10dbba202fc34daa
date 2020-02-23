@@ -1,0 +1,24 @@
+package hw.ch4.enumCase;
+
+enum colorType {
+	Red,Green,blue
+}
+
+//Enum clorType2{
+//	Red("紅色"),Green("綠色"),blue("藍色")
+//	
+//}
+
+public class enumCase {
+	
+	public static void main(String[] args) {
+
+		System.out.println(colorType.blue.name()+"="+color);
+//		System.out.println(colorType2.blue);
+	}
+}
+
+//請解釋enum和	Enum的區別
+//enum 是一個關鍵字，使用enum
+
+//

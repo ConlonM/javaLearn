@@ -1,0 +1,19 @@
+package hw.ch4.enumCase;
+
+enum colorType {
+	Red,Green,blue
+}
+
+public class enumCase {
+	
+	private void mian() {
+		// TODO Auto-generated method stub
+		
+		System.out.println(colorType.blue);
+	}
+}
+
+//請解釋enum和	Enum的區別
+//enum 是一個關鍵字，使用enum
+
+//
