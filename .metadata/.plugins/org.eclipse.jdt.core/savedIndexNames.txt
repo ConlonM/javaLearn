@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+D:\eclipse-workspace\java-height-line\.metadata\.plugins\org.eclipse.jdt.core
 2847934698.index
-4021705845.index
 994590124.index
 3973277272.index
 442432692.index

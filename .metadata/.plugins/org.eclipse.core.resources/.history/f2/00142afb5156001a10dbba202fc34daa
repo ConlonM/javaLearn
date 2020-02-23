@@ -4,7 +4,7 @@ package hw.ch4.enumCase;
 enum colorType {
 	Red,Green,blue
 }
-//枚举类的其他特性,其实就是一个继承抽象类Enum的子类
+//枚举类的其他特性
 enum colorType2 {
 	Red("紅色"),Green("綠色"),blue("藍色");//枚举对象必须写在第一行
 
@@ -12,7 +12,9 @@ enum colorType2 {
 	
 	private colorType2(String title) {
 		this.title = title;		
-	}	
+	}
+	
+	
 	
 	@Override
 	public String toString() {
@@ -20,12 +22,15 @@ enum colorType2 {
 		
 		return this.title;
 	}
+	
 
+	
 }
 
-
-//枚举还可以实现接口
-
+enum clorType2{
+	
+	
+}
 
 public class enumCase {
 	
